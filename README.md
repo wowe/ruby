@@ -13,4 +13,5 @@ I.  Doing demo application
             <h1>Our Blog</h1>
             <p>Hello World</p>
 5.  Create route for post controller by editing the config/routes.rb and add the "resources :post"
+6.  Create model to work with DB by executing command "rails generate model post"
 
