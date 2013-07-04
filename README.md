@@ -6,8 +6,11 @@ testing Git
 
 I.  Doing demo application
 1.  Create new application by executing command "rails new app"
-2.  Design User table:
-    2.1 User's name
-    2.2 User's email
-3.  Create User tables by executing command "rails generate scaffold User name:string email:string"
-4.  Migrating database by executing command "bundle exec rake db:migrate"
+2.  cd to app by executing command "cd app"
+3.  Create controller by executing command "rails generate controller post"
+4.  Create a response file with extension .erb by executing command "vim app/views/post/index.html.erb"
+    4.1 content of index.html.erb file:
+            <h1>Our Blog</h1>
+            <p>Hello World</p>
+5.  Create route for post controller by editing the config/routes.rb and add the "resources :post"
+
